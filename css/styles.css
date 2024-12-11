@@ -1,0 +1,20 @@
+#minecraft-paragraph, #terraria-paragraph, #call-of-duty-paragraph{
+    padding-left: 10px; 
+}
+.ui.circular.image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+p{
+    font-family: Arial, sans-serif; 
+    margin-top: 10px;
+    color: pink;
+    background-color: palevioletred;
+}
+h1{
+    font-weight: bold;
+    background-color: aqua;
+}
+body {
+    background-color: beige}

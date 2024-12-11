@@ -1,0 +1,21 @@
+.verse {
+    background-color: beige; 
+}
+
+.pre-chorus {
+    background-color: lightblue; 
+    padding: 10px;
+}
+
+.chorus {
+    background-color: burlywood;
+    padding: 10px;
+}
+.ui.container img {
+    margin: 20px 0;
+}
+body {
+    background-image:url("../images/song.jpg");
+    background-size: 100px 100px;
+    background-color: azure;
+}
