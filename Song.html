@@ -75,6 +75,29 @@
       </div>
     </div>
   </div>
+  <h2>What is your favourite song?</h2>
+  <form class="ui form">
+    <div class="field">
+      <label>Name of Song</label>
+      <input type="text" name="song-name" placeholder="Enter the song name">
+    </div>
+    <div class="field">
+      <label>Genre</label>
+      <select name="genre" class="ui dropdown">
+        <option value="">Select Genre</option>
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="hiphop">Hip-Hop</option>
+        <option value="jazz">Jazz</option>
+        <option value="classical">Classical</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Why do you like it?</label>
+      <textarea name="reason" placeholder="Explain why you like this song"></textarea>
+    </div>
+    <button class="ui button" type="submit">Submit</button>
+  </form>
 </div>
 <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -82,5 +105,6 @@
       crossorigin="anonymous"
 ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.js"></script>
-
+</body>
 </html>
+
